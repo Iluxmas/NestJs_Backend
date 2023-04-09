@@ -24,6 +24,7 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     "linebreak-style": "off",
     "lines-between-class-members": "off",
-    "@typescript-eslint/lines-between-class-members": "off"
+    "@typescript-eslint/lines-between-class-members": "off",
+    "@typescript-eslint/no-empty-interface": "off"
   },
 };
