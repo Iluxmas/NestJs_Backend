@@ -41,6 +41,12 @@ describe('AppController (e2e)', () => {
       });
   });
 
+  it('/review/:id (DELETE)', () => {
+    return request(app.getHttpServer())
+      .delete('/review/' + createdId)
+      .expect(200);
+  });
+
   afterAll(() => {
     disconnect();
   });
